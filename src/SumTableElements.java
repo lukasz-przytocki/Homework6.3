@@ -15,6 +15,7 @@ public class SumTableElements {
         values[3] = input.nextInt();
         System.out.println("Wprowadź liczbę: ");
         values[4] = input.nextInt();
+        input.close();
 
         System.out.printf("Suma pierwszej: %d, trzeciej: %d, piątej: %d liczy wynosi: %d ", values[0], values[2], values[4],
                 ( values[0]+values[2]+values[4]));
